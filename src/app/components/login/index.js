@@ -1,7 +1,19 @@
 import React from 'react';
+import auth from './auth';
+import { browserHistory, Router, Route, Link, withRouter } from 'react-router';
+
 import '../../../www/styles/login.css';
 
 class NueLogin extends React.Component {
+  constructor(){
+    super();
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+  handleSubmit(event) {
+      event.preventDefault();
+      alert("You should not be doing this");
+  }
+
   render(){
     return(
       <div className="login-wrap">

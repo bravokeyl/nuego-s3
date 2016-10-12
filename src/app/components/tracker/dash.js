@@ -1,4 +1,5 @@
 import React, {PropTypes} from 'react';
+import { IndexLink, Link } from 'react-router';
 
 class NueDashMain extends React.Component {
   constructor(props, context) {
@@ -26,7 +27,7 @@ class NueDashMain extends React.Component {
                   <tbody>
                     <tr>
                       <td>
-                        <a href="/trackers/NGT-AZP-Q1-001">NGT-1</a>
+                        <Link to="/trackers/NGT-AZP-Q1-001" activeClassName="active">NGT-1</Link>
                       </td>
                       <td>19.06</td>
                       <td>45.76</td>

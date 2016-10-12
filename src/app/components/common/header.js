@@ -10,9 +10,9 @@ class NueHeader extends React.Component {
         <div className="nav-block">
             <div className="logo">Nuevosol</div>
             <ul className="nav">
-              <li><IndexLink to="/" activeClassName="active" title="dashboard">dashboard</IndexLink></li>
+              <li><IndexLink to="/trackers" activeClassName="active" title="dashboard">dashboard</IndexLink></li>
               <li><Link to="/logs" activeClassName="active">logs</Link></li>
-              <li><Link to="/trackers" activeClassName="active">support</Link></li>
+              <li><Link to="/support" activeClassName="active">support</Link></li>
             </ul>
         </div>
         <div className="profile-block">

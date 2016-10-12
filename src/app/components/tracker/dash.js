@@ -113,24 +113,24 @@ class NueDashMain extends React.Component {
                   <span className="battery-status alert">20% / Draining</span>
                 </div>
                 <div className="flex data">
-                  <span className="battery-title">NGB-AZP-S1-001</span>
-                  <span className="battery-status">70% / Charging</span>
+                  <span className="battery-title">NGB-AZP-S1-003</span>
+                  <span className="battery-status">84% / Charging</span>
                 </div>
                 <div className="flex data">
-                  <span className="battery-title">NGB-AZP-S1-002</span>
+                  <span className="battery-title">NGB-AZP-S1-004</span>
                   <span className="battery-status">48% / Charging</span>
                 </div>
                 <div className="flex data">
-                  <span className="battery-title">NGB-AZP-S1-001</span>
-                  <span className="battery-status">70% / Charging</span>
+                  <span className="battery-title">NGB-AZP-S1-005</span>
+                  <span className="battery-status">96% / Charging</span>
                 </div>
                 <div className="flex data">
-                  <span className="battery-title">NGB-AZP-S1-002</span>
+                  <span className="battery-title">NGB-AZP-S1-006</span>
                   <span className="battery-status drain">48% / Draining</span>
                 </div>
                 <div className="flex data">
-                  <span className="battery-title">NGB-AZP-S1-001</span>
-                  <span className="battery-status">70% / Charging</span>
+                  <span className="battery-title">NGB-AZP-S1-007</span>
+                  <span className="battery-status">79% / Charging</span>
                 </div>
               </div>
             </section>

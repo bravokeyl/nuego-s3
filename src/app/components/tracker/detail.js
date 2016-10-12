@@ -1,4 +1,6 @@
 import React, {PropTypes} from 'react';
+import NueChart from '../chart';
+import NueLineChart from '../chart/rechart';
 
 class NueTrackerDetail extends React.Component {
   constructor(props,context) {
@@ -11,7 +13,9 @@ class NueTrackerDetail extends React.Component {
             <div className="wrap">
                 <section className="module flex-3">
                     <header><span className="title">Tracker Monitoring</span><span className="fa fa-gear"></span></header>
-                    <div id="chart"></div>
+                    <div id="chart">
+                      <NueLineChart/>
+                    </div>
                 </section>
                 <section className="module flex-1">
                     <header><span className="title">Battery Info</span><span className="fa fa-gear"></span></header>

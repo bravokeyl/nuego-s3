@@ -434,3 +434,6 @@ body.reports {
 .battery-status.alert {
   color: red;
 }
+.recharts-tooltip-label {
+  color: #333;
+}
